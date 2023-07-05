@@ -158,6 +158,10 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-09-29 |    [DAGAN](https://ieeexplore.ieee.org/document/9627919)     | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [JSEN](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361) | Dual-Attention Generative Adversarial Networks for Fault Diagnosis Under the Class-Imbalanced Conditions | None |
 | 20-05-20 | [Residual Signal](https://ieeexplore.ieee.org/document/9097402) |  <img src="https://img.shields.io/badge/SVM-545454.svg" />   | [TIE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41) | Fault diagnosis of an autonomous vehicle with an improved SVM algorithm subject to unbalanced datasets | None |
 
+
+
+
+
 # Datasets Reference Links
 
 - [Bearings and Gearbox PHM](https://github.com/e62505/Fault_diognosis_dataset/blob/master/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E6%95%B0%E6%8D%AE%E9%9B%86%E6%A6%82%E8%BF%B0.md)
@@ -179,9 +183,6 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 - [Awesome-Industrial-Machine-Datasets](https://github.com/makinarocks/awesome-industrial-machine-datasets)
 
 - [Awesome Graph Causal Learning](https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning) 
-
-
-
 
 
 
