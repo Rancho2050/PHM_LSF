@@ -86,6 +86,8 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-12-13 | [Self-CNN](https://www.sciencedirect.com/science/article/pii/S0950705121010996) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [KnoSys](https://www.sciencedirect.com/journal/knowledge-based-systems) | Self-supervised signal representation learning for machinery fault  diagnosis under limited annotation data |                             None                             |
 | 22-06-17 | [TF-C](https://papers.nips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [NeurIPS 2022](https://papers.nips.cc/paper_files/paper/2022) | [Self-supervised contrastive pre-training for time series via time-frequency consistency](https://zhuanlan.zhihu.com/p/594483296) | [TFC-pretraining](https://github.com/mims-harvard/TFC-pretraining) |
 
+
+
 ## Multi-Modal Data Fusion
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | code |
@@ -95,7 +97,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 20-11-08 | **[Impboost](https://www.sciencedirect.com/science/article/pii/S0263224120312240)** | <img src="https://img.shields.io/badge/Adaboost-545454.svg" /> | [Measurement](https://www.sciencedirect.com/journal/measurement) | Motor fault diagnosis using attention mechanism and improved adaboost driven by multi-sensor information | None |
 | 21-04-19 | [Two-stage Fusion](https://www.sciencedirect.com/science/article/pii/S0263224121004474) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [Measurement](https://www.sciencedirect.com/journal/measurement) | Fault diagnosis in a hydraulic directional valve using a two-stage multi-sensor information fusion | None |
 | 19-06-12 | [Wavelet](https://iopscience.iop.org/article/10.1088/1361-6501/ab0737/meta) |  <img src="https://img.shields.io/badge/SVM-545454.svg" />   | [Meas. Sci. Technol.](https://iopscience.iop.org/journal/0957-0233) | A multi-sensor information fusion for fault diagnosis of a gearbox utilizing discrete wavelet features | None |
-| 22-10-04 | [MS $^{2}$ -GNN](https://ieeexplore.ieee.org/document/9911215) | <img src="https://img.shields.io/badge/LSTM-orange.svg" /><img src="https://img.shields.io/badge/GNN-blue.svg" /> | [TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) | MS $^{2}$ -GNN: Exploring GNN-Based Multimodal Fusion Network for Depression Detection | None |
+| 22-10-04 |   [MS^2-GNN](https://ieeexplore.ieee.org/document/9911215)   | <img src="https://img.shields.io/badge/LSTM-orange.svg" /><img src="https://img.shields.io/badge/GNN-blue.svg" /> | [TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) | MS^2 -GNN: Exploring GNN-Based Multimodal Fusion Network for Depression Detection | None |
 | 21-10-01 |  [MSeqGraph](https://ieeexplore.ieee.org/document/9556136)   | <img src="https://img.shields.io/badge/CNN-green.svg" /><img src="https://img.shields.io/badge/GCN-blue.svg" /> | [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046) | Graph-Based Multimodal Sequential Embedding for Sign Language Translation | None |
 | 21-08-31 |     [GFN](https://ieeexplore.ieee.org/document/9525818)      |   <img src="https://img.shields.io/badge/GCN-blue.svg" />    | [TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | Graph Fusion Network-Based Multimodal Learning for Freezing of Gait Detection | None |
 
@@ -154,13 +156,9 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | code |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
-| 21-07-27 |  [DiagSelect](https://ieeexplore.ieee.org/document/9497679)  | <img src="https://img.shields.io/badge/DRL-ff5722.svg?color=FFB6C1" /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Imbalanced Sample Selection With Deep Reinforcement Learning for Fault Diagnosis | None |
+| 21-07-27 |  [DiagSelect](https://ieeexplore.ieee.org/document/9497679)  | <img src="https://img.shields.io/badge/DRL-ff5722.svg?color=FFB6C1"  /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Imbalanced Sample Selection With Deep Reinforcement Learning for Fault Diagnosis | None |
 | 21-09-29 |    [DAGAN](https://ieeexplore.ieee.org/document/9627919)     | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [JSEN](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361) | Dual-Attention Generative Adversarial Networks for Fault Diagnosis Under the Class-Imbalanced Conditions | None |
 | 20-05-20 | [Residual Signal](https://ieeexplore.ieee.org/document/9097402) |  <img src="https://img.shields.io/badge/SVM-545454.svg" />   | [TIE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41) | Fault diagnosis of an autonomous vehicle with an improved SVM algorithm subject to unbalanced datasets | None |
-
-
-
-
 
 # Datasets Reference Links
 
@@ -183,7 +181,5 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 - [Awesome-Industrial-Machine-Datasets](https://github.com/makinarocks/awesome-industrial-machine-datasets)
 
 - [Awesome Graph Causal Learning](https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning) 
-
-
 
 
