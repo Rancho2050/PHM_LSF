@@ -156,7 +156,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
 | 21-07-27 |  [DiagSelect](https://ieeexplore.ieee.org/document/9497679)  | <img src="https://img.shields.io/badge/DRL-ff5722.svg?color=FFB6C1" /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Imbalanced Sample Selection With Deep Reinforcement Learning for Fault Diagnosis | None |
 | 21-09-29 |    [DAGAN](https://ieeexplore.ieee.org/document/9627919)     | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [JSEN](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7361) | Dual-Attention Generative Adversarial Networks for Fault Diagnosis Under the Class-Imbalanced Conditions | None |
-| 20-05-20 | [Residual Signal](https://ieeexplore.ieee.org/document/9097402) |  <img src="https://img.shields.io/badge/SVM-545454.svg" />   | [TIE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41) | Fault diagnosis of an autonomous vehicle with an improved SVM algorithm subject to unbalanced datasets | Non  |
+| 20-05-20 | [Residual Signal](https://ieeexplore.ieee.org/document/9097402) |  <img src="https://img.shields.io/badge/SVM-545454.svg" />   | [TIE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41) | Fault diagnosis of an autonomous vehicle with an improved SVM algorithm subject to unbalanced datasets | None |
 
 # Datasets Reference Links
 
@@ -179,11 +179,4 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 - [Awesome-Industrial-Machine-Datasets](https://github.com/makinarocks/awesome-industrial-machine-datasets)
 
 - [Awesome Graph Causal Learning](https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning) 
-
-
-
-
-
-
-
 
