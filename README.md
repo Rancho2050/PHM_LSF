@@ -182,7 +182,5 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 
 
 
-<img src="https://img.shields.io/badge/SVM-545454.svg" />
-
 
 
