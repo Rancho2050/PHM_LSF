@@ -86,8 +86,6 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-12-13 | [Self-CNN](https://www.sciencedirect.com/science/article/pii/S0950705121010996) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [KnoSys](https://www.sciencedirect.com/journal/knowledge-based-systems) | Self-supervised signal representation learning for machinery fault  diagnosis under limited annotation data |                             None                             |
 | 22-06-17 | [TF-C](https://papers.nips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [NeurIPS 2022](https://papers.nips.cc/paper_files/paper/2022) | [Self-supervised contrastive pre-training for time series via time-frequency consistency](https://zhuanlan.zhihu.com/p/594483296) | [TFC-pretraining](https://github.com/mims-harvard/TFC-pretraining) |
 
-
-
 ## Multi-Modal Data Fusion
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | code |
@@ -100,6 +98,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 22-10-04 |   [MS^2-GNN](https://ieeexplore.ieee.org/document/9911215)   | <img src="https://img.shields.io/badge/LSTM-orange.svg" /><img src="https://img.shields.io/badge/GNN-blue.svg" /> | [TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) | MS^2 -GNN: Exploring GNN-Based Multimodal Fusion Network for Depression Detection | None |
 | 21-10-01 |  [MSeqGraph](https://ieeexplore.ieee.org/document/9556136)   | <img src="https://img.shields.io/badge/CNN-green.svg" /><img src="https://img.shields.io/badge/GCN-blue.svg" /> | [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046) | Graph-Based Multimodal Sequential Embedding for Sign Language Translation | None |
 | 21-08-31 |     [GFN](https://ieeexplore.ieee.org/document/9525818)      |   <img src="https://img.shields.io/badge/GCN-blue.svg" />    | [TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | Graph Fusion Network-Based Multimodal Learning for Freezing of Gait Detection | None |
+| 22-02-08 |   [BTSF](https://proceedings.mlr.press/v162/yang22e.html)    |   <img src="https://img.shields.io/badge/CNN-green.svg" />   |        [ICML 2022](https://icml.cc/Conferences/2022)         | [Unsupervised Time-Series Representation Learning with Iterative Bilinear Temporal-Spectral Fusion](https://blog.csdn.net/zj_18706809267/article/details/125681546) |  None  |
 
 ## Transfer Learning
 
@@ -181,5 +180,6 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 - [Awesome-Industrial-Machine-Datasets](https://github.com/makinarocks/awesome-industrial-machine-datasets)
 
 - [Awesome Graph Causal Learning](https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning) 
+
 
 
