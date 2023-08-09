@@ -4,18 +4,18 @@
 
 This repository contains a reading list of papers related to the **Large-Scale Foundation (LSF) Models for Prognostics and Health Management (PHM)**. These papers are mainly categorized according to the key components of LSF models for PHM:
 
-1. Large-Scale Datasets for PHM
-2. Transformer for PHM
-3. Self-Supervised Learning for PHM
-4. Multi-Modal Fusion for PHM
-5. Knowledge Transfer for PHM
-6. Federated Learning for PHM
-7. Interpretable for PHM
-8. Imbalanced
+1. [Large-Scale Datasets for PHM ](#jump1)
+2. [Transformer for PHM](#jump2)
+3. [Self-Supervised Learning for PHM](#jump3)
+4. [Multi-Modal Fusion for PHM](#jump4)
+5. [Knowledge Transfer for PHM](#jump5)
+6. [Federated Learning for PHM](#jump6)
+7. [Interpretable for PHM](#jump7)
+8. [Imbalanced](#jump8)
 
 We will try our best to continuously maintain this Repository in weekly manner. If you have found any relevant papers that you would like to be included in this repository, please feel free to submit a pull request (PR) or open an issue.
 
-First, we list the **Survey** related in PHM-LSF, and then we tag the above **eight key components** related papers respectively. Finally, some valuable reference links are posted.
+First, we list the **Survey** related in PHM-LSF, and then we tag the above **eight key components** related papers respectively. Furthermore, Knowledge Transfer for PHM includes two parts: Transfer Learning and Few Shot Learning. Finally, some valuable reference links are posted.
 
 ## Survey
 
@@ -27,7 +27,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 23-03-31 |       [Transformer](https://arxiv.org/abs/2303.18223)        |                          ArXiv 2023                          | [A Survey of Large Language Models](https://zhuanlan.zhihu.com/p/631065995) | [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) |
 | 21-02-18 | [DNNs](https://www.sciencedirect.com/science/article/pii/S0951832021006153) | [RESS](https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety) | [Prognostics and Health Management (PHM): Where are we and where do we (need to) go in theory and practice](https://zhuanlan.zhihu.com/p/575061743) |                        None                        |
 
-## Large-Scale Datasets for PHM
+ ## <span id="jump1">Large-Scale Datasets for PHM </span>
 
 |                           Dataset                            |    Task     |                             Type                             |                   Papers/Doc (In Chinese)                    |                            Github                            |
 | :----------------------------------------------------------: | :---------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -52,7 +52,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 |  [PHM2009](https://c3.ndc.nasa.gov/dashlink/resources/997/)  |  Detection  |                           Gearbox                            |                             None                             |                             None                             |
 |   [PMSM](https://data.mendeley.com/datasets/rgn5brrgrn/5)    | Diagnostics |                             PMSM                             | [Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous Motors with Stator Faults](https://www.data-in-brief.com/article/S2352-3409(23)00070-7/fulltext) |                             None                             |
 
-## Transformer-Based Feature Extraction
+## <span id="jump2">Transformer-Based Feature Extraction</span>
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                             code                             |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -66,7 +66,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-06-25 |  [TransFuser](https://ieeexplore.ieee.org/document/9578103)  | <img src="https://img.shields.io/badge/Transformer-red.svg" /> | [CVPR 2021](https://ieeexplore.ieee.org/xpl/conhome/9577055/proceeding) | Multi-Modal Fusion Transformer for End-to-End Autonomous Driving | [transfuser](https://github.com/autonomousvision/transfuser) |
 | 22-05-31 |        [TransFuser](https://arxiv.org/abs/2205.15997)        | <img src="https://img.shields.io/badge/Transformer-red.svg" /> |                          PAMI 2022                           | [TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving](https://zhuanlan.zhihu.com/p/547802232) | [transfuser](https://github.com/autonomousvision/transfuser) |
 
-## Self-Supervised Learning-Based Feature Representation
+## <span id="jump3">Self-Supervised Learning-Based Feature Representation</span>
 
 | Date     |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                             Code                             |
 | -------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -86,7 +86,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-12-13 | [Self-CNN](https://www.sciencedirect.com/science/article/pii/S0950705121010996) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [KnoSys](https://www.sciencedirect.com/journal/knowledge-based-systems) | Self-supervised signal representation learning for machinery fault  diagnosis under limited annotation data |                             None                             |
 | 22-06-17 | [TF-C](https://papers.nips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [NeurIPS 2022](https://papers.nips.cc/paper_files/paper/2022) | [Self-supervised contrastive pre-training for time series via time-frequency consistency](https://zhuanlan.zhihu.com/p/594483296) | [TFC-pretraining](https://github.com/mims-harvard/TFC-pretraining) |
 
-## Multi-Modal Data Fusion
+## <span id="jump4">Multi-Modal Data Fusion</span>
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | code |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
@@ -98,18 +98,23 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 22-10-04 |   [MS^2-GNN](https://ieeexplore.ieee.org/document/9911215)   | <img src="https://img.shields.io/badge/LSTM-orange.svg" /><img src="https://img.shields.io/badge/GNN-blue.svg" /> | [TCYB](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036) | MS^2 -GNN: Exploring GNN-Based Multimodal Fusion Network for Depression Detection | None |
 | 21-10-01 |  [MSeqGraph](https://ieeexplore.ieee.org/document/9556136)   | <img src="https://img.shields.io/badge/CNN-green.svg" /><img src="https://img.shields.io/badge/GCN-blue.svg" /> | [TMM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046) | Graph-Based Multimodal Sequential Embedding for Sign Language Translation | None |
 | 21-08-31 |     [GFN](https://ieeexplore.ieee.org/document/9525818)      |   <img src="https://img.shields.io/badge/GCN-blue.svg" />    | [TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | Graph Fusion Network-Based Multimodal Learning for Freezing of Gait Detection | None |
-| 22-02-08 |   [BTSF](https://proceedings.mlr.press/v162/yang22e.html)    |   <img src="https://img.shields.io/badge/CNN-green.svg" />   |        [ICML 2022](https://icml.cc/Conferences/2022)         | [Unsupervised Time-Series Representation Learning with Iterative Bilinear Temporal-Spectral Fusion](https://blog.csdn.net/zj_18706809267/article/details/125681546) |  None  |
+| 22-02-08 |   [BTSF](https://proceedings.mlr.press/v162/yang22e.html)    |   <img src="https://img.shields.io/badge/CNN-green.svg" />   |        [ICML 2022](https://icml.cc/Conferences/2022)         | [Unsupervised Time-Series Representation Learning with Iterative Bilinear Temporal-Spectral Fusion](https://blog.csdn.net/zj_18706809267/article/details/125681546) | None |
 
-## Transfer Learning
+## <span id="jump5">Transfer Learning</span>
 
-|   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                   Code                   |
-| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------: |
-| 21–03-11 | [Federated Transfer Learning](https://ieeexplore.ieee.org/document/9376674) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [TMECH](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3516) | Federated Transfer Learning for Intelligent Fault Diagnostics Using Deep Adversarial Networks With Data Privacy |                   None                   |
-| 20-06-30 | [Modified Transfer CNN](https://ieeexplore.ieee.org/document/9130129) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Intelligent Fault Diagnosis of Rotor-Bearing System Under Varying Working Conditions With Modified Transfer Convolutional Neural Network and Thermal Images |                   None                   |
-| 20-05-14 |     [WATN](https://ieeexplore.ieee.org/document/9093960)     | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | A Novel Weighted Adversarial Transfer Network for Partial Domain Fault Diagnosis of Machinery |                   None                   |
-| 21-04-22 |    [DAGCN](https://ieeexplore.ieee.org/document/9410617)     |   <img src="https://img.shields.io/badge/GCN-blue.svg" />    | [TIM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19) | [Domain Adversarial Graph Convolutional Network for Fault Diagnosis Under Variable Working Conditions]() | [DAGCN](https://github.com/HazeDT/DAGCN) |
+|   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                             Code                             |
+| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 21–03-11 | [Federated Transfer Learning](https://ieeexplore.ieee.org/document/9376674) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [TMECH](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=3516) | Federated Transfer Learning for Intelligent Fault Diagnostics Using Deep Adversarial Networks With Data Privacy |                             None                             |
+| 20-06-30 | [Modified Transfer CNN](https://ieeexplore.ieee.org/document/9130129) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Intelligent Fault Diagnosis of Rotor-Bearing System Under Varying Working Conditions With Modified Transfer Convolutional Neural Network and Thermal Images |                             None                             |
+| 20-05-14 |     [WATN](https://ieeexplore.ieee.org/document/9093960)     | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | A Novel Weighted Adversarial Transfer Network for Partial Domain Fault Diagnosis of Machinery |                             None                             |
+| 21-04-22 |    [DAGCN](https://ieeexplore.ieee.org/document/9410617)     |   <img src="https://img.shields.io/badge/GCN-blue.svg" />    | [TIM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19) | [Domain Adversarial Graph Convolutional Network for Fault Diagnosis Under Variable Working Conditions]() |           [DAGCN](https://github.com/HazeDT/DAGCN)           |
+| 21-11-09 | [T3A](https://proceedings.neurips.cc/paper/2021/hash/1415fe9fea0fa1e45dddcff5682239a0-Abstract.html) | <img src="https://img.shields.io/badge/DNNs-bluegreen.svg" /> | [NeurIPS 2021](https://proceedings.neurips.cc/paper_files/paper/2021) | Test-Time Classififier Adjustment Module for Model-Agnostic Domain Generalization |           [T3A](https://github.com/matsuolab/T3A)            |
+| 21-11-02 |  [Domain Bed](https://ieeexplore.ieee.org/document/9578097)  | <img src="https://img.shields.io/badge/DNNs-bluegreen.svg" /> | [CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/html/Dubey_Adaptive_Methods_for_Real-World_Domain_Generalization_CVPR_2021_paper.html) |    Adaptive Methods for Real-World Domain Generalization     |   [DomainBed](https://github.com/abhimanyudubey/DomainBed)   |
+| 20-06-18 |           [Tent](https://arxiv.org/abs/2006.10726)           | <img src="https://img.shields.io/badge/Transformer-red.svg" /> | [ICLR 2021 Spotlight](https://openreview.net/forum?id=uXl3bZLkr3c) |   Tent: Fully Test-Time Adaptation by Entropy Minimization   |          [tent](https://github.com/DequanWang/tent)          |
+| 21-07-20 |          [TADE](https://arxiv.org/abs/2107.09249v1)          | <img src="https://img.shields.io/badge/DNNs-bluegreen.svg" /> | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/dc6319dde4fb182b22fb902da9418566-Abstract-Conference.html) | Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition | [TADE-AgnosticLT](https://github.com/Vanint/TADE-AgnosticLT) |
+| 21-09-13 | [CDTrans](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2109.06165) | <img src="https://img.shields.io/badge/Transformer-red.svg" /> |   [ICLR 2022](https://openreview.net/forum?id=XGzk5OKWFFc)   | [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://blog.csdn.net/AIEarth/article/details/128301141) |        [CDTrans](https://github.com/CDTrans/CDTrans)         |
 
-## Few-Shot Learning 
+## Few-Shot Learning
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                             Code                             |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -126,8 +131,10 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 20-04-20 | [Fault Descriptions](https://ieeexplore.ieee.org/document/9072621) |  <img src="https://img.shields.io/badge/PCA-545454.svg" />   | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | [Fault Description Based Attribute Transfer for Zero-Sample Industrial Fault Diagnosis](https://blog.csdn.net/Liangjun_Feng/article/details/105612206) | [Industrial_ZSL](https://github.com/LiangjunFeng/Industrial_ZSL) |
 | 20-10-09 |    [MGPGAN](https://ieeexplore.ieee.org/document/9219137)    | <img src="https://img.shields.io/badge/GAN-ff5722.svg?color=4B0082" /> | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | A Small Sample Focused Intelligent Fault Diagnosis Scheme of Machines via Multi-modules Learning with Gradient Penalized Generative Adversarial Networks |                             None                             |
 | 20-05-06 | [Conditions Transfer](https://www.sciencedirect.com/science/article/pii/S0263224120307405) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [Measurement](https://www.sciencedirect.com/journal/measurement) | [Few-shot Transfer Learning for Intelligent Fault Diagnosis of Machine](https://blog.csdn.net/weixin_45809449/article/details/123603165) | [FSTL](https://github.com/a1018680161/Few-shot-Transfer-Learning) |
+| 22-09-28 |     [SCE](https://ieeexplore.ieee.org/document/9904860)      |   <img src="https://img.shields.io/badge/ML-545454.svg" />   | [TII](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424) | Semantic-Consistent Embedding for Zero-Shot Fault Diagnosis  | [Semantic-consistent-Embedding](https://github.com/htz-ecust/Semantic-consistent-Embedding) |
+| 21-06-21 | [ZLCFDM](https://www.sciencedirect.com/science/article/abs/pii/S095741742101513X) |   <img src="https://img.shields.io/badge/CNN-green.svg" />   | [ESWA](https://www.sciencedirect.com/journal/expert-systems-with-applications) | [Zero-shot learning for compound fault diagnosis of bearings](https://blog.csdn.net/Goodlick/article/details/129119285) |                             None                             |
 
-## Federated Learning for PHM
+## <span id="jump6">Federated Learning for PHM</span>
 
 | ate      |                            Method                            |                           Type                            |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | Code |
 | -------- | :----------------------------------------------------------: | :-------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
@@ -136,7 +143,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 22-08-22 |    [CA-CNN](https://ieeexplore.ieee.org/document/9864294)    | <img src="https://img.shields.io/badge/CNN-green.svg" />  | [TIM](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19) | Hierarchical Federated Learning for Power Transformer Fault Diagnosis | None |
 | 22-01-11 | [Prior Features-augmented](https://ieeexplore.ieee.org/document/9677916/) | <img src="https://img.shields.io/badge/CNN-green.svg" />  | [TIE](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41) | Prior Knowledge-Augmented Self-Supervised Feature Learning for Few-shot Intelligent Fault Diagnosis of Machines | None |
 
-## Interpretable for PHM
+## <span id="jump7">Interpretable for PHM</span>
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       |                             code                             |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -151,7 +158,7 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 | 21-01-20 | [WKN](https://ieeexplore.ieee.org/abstract/document/9328876) | <img src="https://img.shields.io/badge/CWT-545454.svg" /><img src="https://img.shields.io/badge/CNN-green.svg" /> | [TSMC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021) | WaveletKernelNet: An interpretable deep neural  network for industrial intelligent diagnosis | [WaveletKernelNet](https://github.com/HazeDT/WaveletKernelNet) |
 | 23-06-15 |  [WPConvNet](https://ieeexplore.ieee.org/document/10153514)  | <img src="https://img.shields.io/badge/CWT-545454.svg" /><img src="https://img.shields.io/badge/CNN-green.svg" /> | [TNNLS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385) | Interpretable convolutional neural network with multilayer  wavelet for Noise-Robust Machinery fault diagnosis |                             None                             |
 
-## Imbalanced
+## <span id="jump8">Imbalanced</span>
 
 |   Date   |                            Method                            |                             Type                             |                    Conference & Journals                     |      Paper Title and Paper Interpretation (In Chinese)       | code |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
@@ -180,6 +187,8 @@ First, we list the **Survey** related in PHM-LSF, and then we tag the above **ei
 - [Awesome-Industrial-Machine-Datasets](https://github.com/makinarocks/awesome-industrial-machine-datasets)
 
 - [Awesome Graph Causal Learning](https://github.com/TimeLovercc/Awesome-Graph-Causal-Learning) 
+
+
 
 
 
