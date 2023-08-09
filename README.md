@@ -1,6 +1,6 @@
 # Large-Scale Foundation Models for PHM
 
-<img src="https://awesome.re/badge.svg" /> <img src="https://img.shields.io/badge/PRs-Welcome-green.svg" /> <img src="https://img.shields.io/badge/release-v1.0-0475b6.svg" /> <img src="https://img.shields.io/badge/Time-Frequency-ff5722.svg?colorA=FFB6C1&colorB=4B0082" /> ![Stars](https://img.shields.io/github/stars/Rancho2050/PHM_LSF) ![Visitors](https://api.visitorbadge.io/api/visitors?path=Rancho2050%2FPHM_LSF&countColor=%232ccce4&style=plastic)![Updated Badge](https://badges.pufler.dev/updated/Rancho2050/PHM_LSF)
+<img src="https://awesome.re/badge.svg" /> <img src="https://img.shields.io/badge/PRs-Welcome-green.svg" /> <img src="https://img.shields.io/badge/release-v1.0-0475b6.svg" /> <img src="https://img.shields.io/badge/Time-Frequency-ff5722.svg?colorA=FFB6C1&colorB=4B0082" /> ![Stars](https://img.shields.io/github/stars/Rancho2050/PHM_LSF) ![Visitors](https://api.visitorbadge.io/api/visitors?path=Rancho2050%2FPHM_LSF&countColor=%232ccce4&style=plastic) ![Updated Badge](https://badges.pufler.dev/updated/Rancho2050/PHM_LSF)
 
 This repository contains a reading list of papers related to the **Large-Scale Foundation (LSF) Models for Prognostics and Health Management (PHM)**. These papers are mainly categorized according to the key components of LSF models for PHM:
 
